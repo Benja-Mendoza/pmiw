@@ -1,3 +1,4 @@
+// https://youtu.be/q4jxZ4PjZvw
 let pantalla = "inicio";
 let opciones = [];
 let botonElegido = -1;
