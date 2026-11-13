@@ -15,10 +15,12 @@ class Enemigo {
   mover() {
     if (this.x < this.destino) {
       this.x = this.x + this.velocidad;
-      
-      for(let i=0; i<2; i++){
-imagenes[i]=loadImage("data/enemigo"+i+".png");
-}
+    }
+
+    
+    this.contador = this.contador + 0.1;
+    if (this.contador >= imagenesEnemigo.length) {
+      this.contador = 0;
     }
   }
 
@@ -27,6 +29,6 @@ imagenes[i]=loadImage("data/enemigo"+i+".png");
   }
 
   dibujar() {
-    image(imagenesEnemigo[this.contador], this.x, this.y + 10, 80, 80);
+    image(imagenesEnemigo[int(this.contador)], this.x, this.y + 10, 80, 80);
   }
 }
