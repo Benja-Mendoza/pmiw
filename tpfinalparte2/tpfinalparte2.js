@@ -1,3 +1,5 @@
+//https://youtu.be/IbwnpRt6B78
+
 let juego;
 let imagenFondo;
 let imagenObstaculo;
