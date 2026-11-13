@@ -1,3 +1,7 @@
+//https://youtu.be/q4jxZ4PjZvw
+// Martiniano Rogiguez Barreda y Benajmin Mendoza. 
+//Comision 5
+
 let pantalla = "inicio";
 let opciones = [];
 let botonElegido = -1;
